@@ -1,0 +1,20 @@
+{
+	"files": [
+		{
+			"from": "index.hbs",
+			"to": "./src/Recipes/{{capitaliseName name}}/index.js"
+		},
+		{
+			"from": "recipe.hbs",
+			"to": "./src/Recipes/{{capitaliseName name}}/{{capitaliseName name}}.js"
+		},
+		{
+			"from": "recipe.stories.hbs",
+			"to": "./src/Recipes/{{capitaliseName name}}/__tests__/{{capitaliseName name}}.stories.js"
+		},
+		{
+			"from": "recipe.stories.css.hbs",
+			"to": "./src/Recipes/{{capitaliseName name}}/__tests__/{{capitaliseName name}}.stories.css"
+		}
+	]
+}
