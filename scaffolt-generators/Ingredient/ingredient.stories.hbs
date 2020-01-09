@@ -1,15 +1,18 @@
 import React from 'react';
-import {{{capitaliseName name}}} from '..';
+import { {{capitaliseName name}} } from '..';
 
 export default {
-    title: '',
+    title: 'Ingredients|{{capitaliseName name}}',
     component: {{capitaliseName name}}
 };
 
-export const {{capitaliseName name}} = () => {
-	return(<React.Fragment>{{capitaliseName name}}</React.Fragment>)
-};
+export const {{lowerName name}} = () => (
+    <div>
+        {{capitaliseName name}}
+    </div>
+);
 
-{{capitaliseName name}}.story = {
-    name: ''
+
+{{lowerName name}}.story = {
+    name: '{{capitaliseName name}}'
 };
